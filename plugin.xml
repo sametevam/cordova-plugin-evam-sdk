@@ -31,7 +31,7 @@
             </feature>
         </config-file>
         
-        <source-file src="src/android/EvamSdk.java" />
+        <source-file src="src/android/EvamSdk.java"  target-dir="src/uk/co/whiteoctober/cordova"/>
     </platform>
 
 </plugin>
