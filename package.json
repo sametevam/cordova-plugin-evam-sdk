@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-evam-sdk",
+  "version": "0.0.1",
+  "description": "Evam Sdk test plugin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sametevam/cordova-plugin-evam-sdk.git"
+  },
+  "keywords": [
+    
+  ],
+  "author": "samet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sametevam/cordova-plugin-evam-sdk/issues"
+  },
+  "homepage": "https://github.com/sametevam/cordova-plugin-evam-sdk#readme"
+}
