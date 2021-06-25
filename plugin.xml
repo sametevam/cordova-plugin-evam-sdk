@@ -31,7 +31,7 @@
             </feature>
         </config-file>
         
-        <source-file src="src/android/EvamSdk.java"  target-dir="src/uk/co/whiteoctober/cordova"/>
+        <source-file src="src/android/EvamSdk.java"   target-dir="src/org/apache/cordova/statusbar"/>
     </platform>
 
 </plugin>
