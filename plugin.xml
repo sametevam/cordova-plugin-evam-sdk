@@ -18,7 +18,7 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
 
-    <js-module src="www/evamsdk.js" name="evamsdk">
+    <js-module src="www/EvamSdkPlugin.js" name="evamsdk">
         <clobbers target="window.EvamSdk" />
     </js-module>
  
