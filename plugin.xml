@@ -18,7 +18,7 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
 
-    <js-module src="www/EvamSdkPlugin.js" name="evamsdk">
+    <js-module src="www/EvamSdkPlugin.js" >
         <clobbers target="window.EvamSdk" />
     </js-module>
  
@@ -28,7 +28,7 @@
         <source-file src="src/android/EvamSdk.java"   target-dir="src/org/apache/cordova/evamsdk"/>
 
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="EvamSDK">
+            <feature name="EvamSdk">
                 <param name="android-package" value="org.apache.cordova.evamsdk.EvamSdk"/>
                  <param name="onload" value="true" />
             </feature>
