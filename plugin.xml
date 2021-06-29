@@ -25,13 +25,15 @@
 
     <!-- android -->
     <platform name="android">
+        <source-file src="src/android/EvamSdk.java"   target-dir="src/org/apache/cordova/evamsdk"/>
+
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="EvamSDK">
+                <param name="android-package" value="org.apache.cordova.evamsdk.EvamSdk"/>
                  <param name="onload" value="true" />
             </feature>
         </config-file>
-        
-        <source-file src="src/android/EvamSdk.java"   target-dir="src/org/apache/cordova/statusbar"/>
+         
     </platform>
 
 </plugin>
